@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "Alain",
+    "description": "Ng-zorro admin panel front-end framework"
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "cipchk@qq.com"
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "i18n": "SF表单控件",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "Widget",
+          "i18n": "Widget",
+          "icon": "anticon anticon-scan",
+          "children": [
+            {
+              "text": "日期",
+              "link": "/sf-widget/date",
+              "i18n": "日期-date"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
