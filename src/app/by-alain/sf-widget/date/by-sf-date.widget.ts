@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ControlWidget} from '@delon/form';
 import * as format from 'date-fns/format';
-import {toBool} from './util';
+import {toBool} from '../util';
 
 const DATEFORMAT = {
     'date-time': `YYYY-MM-DDTHH:mm:ssZ`,
@@ -89,7 +89,7 @@ const DEFAULTFORMAT = 'YYYY-MM-DD HH:mm:ss';
   `,
     preserveWhitespaces: false,
 })
-export class BySfWidgetDateComponent extends ControlWidget implements OnInit {
+export class BySfDateWidget extends ControlWidget implements OnInit {
     static readonly KEY = 'by-sf-widget-date';
     ode: string;
     displayValue: Date | Date[] = null;
