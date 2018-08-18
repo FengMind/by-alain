@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300caac3-a904-4227-a123-213c3594d8b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/by-alain/sf-widget/treeSelect/by-sf-treeSelect.widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/by-alain/sf-widget/treeSelect/by-sf-treeSelect.widget.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/by-alain/sf-widget/date/by-sf-date.widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/by-alain/sf-widget/date/by-sf-date.widget.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +27,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="by-sf-treeSelect.widget.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="by-sf-treeSelect.widget.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/by-alain/sf-widget/treeSelect/by-sf-treeSelect.widget.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="35">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="by-sf-date.widget.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/by-alain/sf-widget/date/by-sf-date.widget.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="date.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/routes/sf-widget/date/date.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -58,6 +82,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/app/by-alain/sf-widget/treeSelect/by-sf-treeSelect.widget.ts" />
+        <option value="$PROJECT_DIR$/src/app/by-alain/sf-widget/date/by-sf-date.widget.ts" />
+        <option value="$PROJECT_DIR$/src/app/routes/sf-widget/date/date.component.ts" />
       </list>
     </option>
   </component>
@@ -71,7 +97,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="72" />
@@ -125,6 +153,15 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="by-alain" type="462c0819:PsiDirectoryNode" />
               <item name="sf-widget" type="462c0819:PsiDirectoryNode" />
+              <item name="date" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="by-alain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="by-alain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="by-alain" type="462c0819:PsiDirectoryNode" />
+              <item name="sf-widget" type="462c0819:PsiDirectoryNode" />
               <item name="treeSelect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -133,6 +170,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="by-alain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="by-alain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="by-alain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="by-alain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="sf-widget" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="by-alain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="by-alain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="sf-widget" type="462c0819:PsiDirectoryNode" />
+              <item name="date" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,6 +207,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,28 +233,29 @@
       <updated>1533104875087</updated>
       <workItem from="1533104876267" duration="398000" />
       <workItem from="1533107622882" duration="517000" />
-      <workItem from="1534565287581" duration="25000" />
+      <workItem from="1534565287581" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="940000" />
+    <option name="totallyTimeSpent" value="1354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="23" width="1280" height="946" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32979977" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32979977" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32979977" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -240,8 +303,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/by-alain/sf-widget/treeSelect/by-sf-treeSelect.widget.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="35">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/by-alain/sf-widget/date/by-sf-date.widget.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/routes/sf-widget/date/date.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>

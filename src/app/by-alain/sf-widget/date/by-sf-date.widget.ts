@@ -121,6 +121,9 @@ export class BySfDateWidget extends ControlWidget implements OnInit {
     }
 
     reset(value: any) {
+        if(value==null || value===0){
+            value=(new Date()).valueOf();
+        }
         if (!Array.isArray(value)) {
             if (value.toString().length === 10) {
                 value = value * 1000;
