@@ -2,25 +2,25 @@ import {NgModule} from '@angular/core';
 import {SharedModule} from '@shared/shared.module';
 import {DelonFormModule, WidgetRegistry} from '@delon/form';
 import {BySfDateWidget} from "./date/by-sf-date.widget";
-import {BySfTreeSelectWidget} from "./treeSelect/by-sf-treeSelect.widget";
+// import {BySfTreeSelectWidget} from "./treeSelect/by-sf-treeSelect.widget";
 
 
 @NgModule({
-    declarations: [
-        BySfDateWidget,
-        BySfTreeSelectWidget
-    ],
-    entryComponents: [
-        BySfDateWidget,
-        BySfTreeSelectWidget
-    ],
     imports: [
         SharedModule,
         DelonFormModule.forRoot()
     ],
+    declarations: [
+        BySfDateWidget,
+        //BySfTreeSelectWidget
+    ],
+    entryComponents: [
+        BySfDateWidget,
+        //BySfTreeSelectWidget
+    ],
     exports: [
         BySfDateWidget,
-        BySfTreeSelectWidget
+        //BySfTreeSelectWidget
     ]
 })
 export class SfWidgetModule {
