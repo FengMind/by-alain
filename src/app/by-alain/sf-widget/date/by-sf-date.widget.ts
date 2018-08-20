@@ -121,27 +121,41 @@ export class BySfDateWidget extends ControlWidget implements OnInit {
     }
 
     reset(value: any) {
-        if(value==null || value===0){
-            value=(new Date()).valueOf();
-        }
         if (!Array.isArray(value)) {
-            if (value.toString().length === 10) {
-                value = value * 1000;
+            if (value == null || value === 0) { // 默认值
+                if (this.mode === 'range') {
+                    value = [new Date(), new Date()];
+                } else {
+                    value = new Date();
+                }
+            } else {
+                if (value.toString().length === 10) {
+                    value = value * 1000;
+                }
+                value = new Date(value);
             }
-            value = new Date(value);
             this.displayValue = value;
         }
         else {
             let dateValue = [];
-            value.map(d => {
-                if (d.toString().length === 10) {
-                    d = d * 1000;
-                }
-                dateValue.push(new Date(d));
-            });
+            if (value.length === 0) {
+                dateValue = [new Date(), new Date()];
+                this.displayValue = dateValue;
+            }
+            else {
+                value.map(d => {
+                    if (d.toString().length === 10) {
+                        d = d * 1000;
+                    }
+                    if (d === 0) {
+                        d = (new Date()).valueOf();
+                    }
+                    dateValue.push(new Date(d));
+                });
+            }
             this.displayValue = dateValue;
         }
-
+        this._change(this.displayValue); // 初始值setValue()
     }
 
     _change(value: Date | Date[]) {

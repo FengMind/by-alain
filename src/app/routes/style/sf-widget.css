@@ -1,0 +1,15 @@
+.code{
+    width:80%;
+}
+.example{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.desc{
+    margin-top:20px;
+    width:80%;
+    padding: 30px;
+    background: cornflowerblue;
+    color: white;
+}

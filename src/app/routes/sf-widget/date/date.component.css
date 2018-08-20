@@ -1,8 +1,1 @@
-.code{
-    width:80%;
-}
-.example{
-    font-weight: bold;
-    font-size: 16px;
-    margin: 20px 0px;
-}
+@import "../../style/sf-widget.css";

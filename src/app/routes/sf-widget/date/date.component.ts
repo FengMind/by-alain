@@ -22,17 +22,25 @@ export class DateComponent implements OnInit {
             'range': {
                 'type': 'number',
                 ui: {widget: 'by-sf-widget-date', mode: 'range'}
+            },
+            'week': {
+                'type': 'number',
+                ui: {widget: 'by-sf-widget-date', mode: 'week'}
+            },
+            'month': {
+                'type': 'number',
+                ui: {widget: 'by-sf-widget-date', mode: 'month'}
             }
         }
     };
 
-    constructor(private msg:NzMessageService) {
+    constructor(private msg: NzMessageService) {
     }
 
     ngOnInit() {
         this.i = {
-            date_number: (new Date()).valueOf(),
-            range: [1513051932, 1513051932]
+            // date_number: (new Date()).valueOf(),
+            //range: [1513051932, 1513051932]
         };
 
         hljs.initHighlightingOnLoad();
@@ -49,6 +57,10 @@ export class DateComponent implements OnInit {
                         'range': {
                             'type': 'number',
                             ui: {widget: 'by-sf-widget-date', mode: 'range'}
+                        },
+                        'week': {
+                            'type': 'number',
+                            ui: {widget: 'by-sf-widget-date', mode: 'week'}
                         }
                     }
                 };
@@ -56,8 +68,10 @@ export class DateComponent implements OnInit {
                 }
                 ngOnInit() {
                     this.i = {
-                        date_number: (new Date()).valueOf(),
-                        range: [1513051932, 1513051932]
+                        date_number: (new Date()).valueOf(),//null或0
+                        range: [1513051932, 1513051932],//null或[0,0]
+                        // week:null
+                        // month:0
                     };
                 }
             }
@@ -70,7 +84,7 @@ export class DateComponent implements OnInit {
     }
 
     change(value: any) {
-        this.msg.success(JSON.stringify(value));
+        // this.msg.success(JSON.stringify(value));
     }
 
 }
