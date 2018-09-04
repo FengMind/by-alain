@@ -2,13 +2,12 @@ import {Component, OnInit} from '@angular/core';
 import {SFSchema} from '@delon/form';
 import {NzMessageService} from 'ng-zorro-antd';
 
-declare var $: any;
 declare var hljs: any;
 
 @Component({
     selector: 'app-date',
     templateUrl: './date.component.html',
-    styleUrls: ['./date.component.css']
+    styleUrls: ['./date.component.less']
 })
 export class DateComponent implements OnInit {
     code: any;
@@ -17,19 +16,19 @@ export class DateComponent implements OnInit {
         properties: {
             'date_number': {
                 'type': 'number',
-                ui: {widget: 'by-sf-widget-date'}
+                ui: {widget: 'by-date'}
             },
             'range': {
                 'type': 'number',
-                ui: {widget: 'by-sf-widget-date', mode: 'range'}
+                ui: {widget: 'by-date', mode: 'range'}
             },
             'week': {
                 'type': 'number',
-                ui: {widget: 'by-sf-widget-date', mode: 'week'}
+                ui: {widget: 'by-date', mode: 'week'}
             },
             'month': {
                 'type': 'number',
-                ui: {widget: 'by-sf-widget-date', mode: 'month'}
+                ui: {widget: 'by-date', mode: 'month'}
             }
         }
     };

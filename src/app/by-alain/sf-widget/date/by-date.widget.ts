@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ControlWidget} from '@delon/form';
 import * as format from 'date-fns/format';
-import {toBool} from '../util';
+import {toBool} from '../assets/utils';
 
 const DATEFORMAT = {
     'date-time': `YYYY-MM-DDTHH:mm:ssZ`,
@@ -10,7 +10,7 @@ const DATEFORMAT = {
 const DEFAULTFORMAT = 'YYYY-MM-DD HH:mm:ss';
 
 @Component({
-    selector: 'by-sf-widget-date',
+    selector: 'by-date',
     template: `
   <sf-item-wrap [id]="id" [schema]="schema" [ui]="ui" [showError]="showError" [error]="error" [showTitle]="schema.title">
     <ng-container [ngSwitch]="mode">
@@ -88,10 +88,14 @@ const DEFAULTFORMAT = 'YYYY-MM-DD HH:mm:ss';
   </sf-item-wrap>
   `,
     preserveWhitespaces: false,
+    styles: [
+        `
+      
+    `,
+    ],
 })
-export class BySfDateWidget extends ControlWidget implements OnInit {
-    static readonly KEY = 'by-sf-widget-date';
-    ode: string;
+export class ByDateWidget extends ControlWidget implements OnInit {
+    static readonly KEY = 'by-date';
     displayValue: Date | Date[] = null;
     displayFormat: string;
     format: string;

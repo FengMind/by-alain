@@ -1,7 +1,7 @@
 {
   "app": {
-    "name": "Alain",
-    "description": "Ng-zorro admin panel front-end framework"
+    "name": "by-alain - baiyoudata",
+    "description": "sf widgets for ng-alain"
   },
   "user": {
     "name": "FengMind",
@@ -23,7 +23,12 @@
             {
               "text": "日期",
               "link": "/sf-widget/date",
-              "i18n": "日期-date"
+              "i18n": "日期"
+            },
+            {
+              "text": "省市区联动",
+              "link": "/sf-widget/cascader-area",
+              "i18n": "省市区联动"
             }
           ]
         }

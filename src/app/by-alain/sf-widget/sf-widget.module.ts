@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {SharedModule} from '@shared/shared.module';
-import {DelonFormModule, WidgetRegistry} from '@delon/form';
-import {BySfDateWidget} from "./date/by-sf-date.widget";
-// import {BySfTreeSelectWidget} from "./treeSelect/by-sf-treeSelect.widget";
+import { DelonFormModule, WidgetRegistry} from '@delon/form';
+import {ByCascaderAreaWidget} from './cascader-area/by-cascader-area.widget';
+import {ByDateWidget} from './date/by-date.widget';
 
 
 @NgModule({
@@ -11,20 +11,21 @@ import {BySfDateWidget} from "./date/by-sf-date.widget";
         DelonFormModule.forRoot()
     ],
     declarations: [
-        BySfDateWidget,
-        //BySfTreeSelectWidget
+        ByDateWidget,
+        ByCascaderAreaWidget,
     ],
     entryComponents: [
-        BySfDateWidget,
-        //BySfTreeSelectWidget
+        ByDateWidget,
+        ByCascaderAreaWidget,
     ],
     exports: [
-        BySfDateWidget,
-        //BySfTreeSelectWidget
+        ByDateWidget,
+        ByCascaderAreaWidget,
     ]
 })
 export class SfWidgetModule {
     constructor(widgetRegistry: WidgetRegistry) {
-        widgetRegistry.register(BySfDateWidget.KEY, BySfDateWidget);
+        widgetRegistry.register(ByDateWidget.KEY, ByDateWidget);
+        widgetRegistry.register(ByCascaderAreaWidget.KEY, ByCascaderAreaWidget);
     }
 }

@@ -11,6 +11,7 @@ import { SettingsService, TitleService } from '@delon/theme';
 import { VERSION as VERSION_ALAIN } from '@delon/theme';
 import { VERSION as VERSION_ZORRO } from 'ng-zorro-antd';
 
+
 @Component({
   selector: 'app-root',
   template: `<router-outlet></router-outlet>`,
@@ -52,5 +53,5 @@ export class AppComponent implements OnInit {
     this.router.events
       .pipe(filter(evt => evt instanceof NavigationEnd))
       .subscribe(() => this.titleSrv.setTitle());
-  }
+    }
 }
