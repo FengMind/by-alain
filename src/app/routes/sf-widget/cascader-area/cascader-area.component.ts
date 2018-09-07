@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {SFSchema} from '@delon/form';
+import {NzMessageService} from 'ng-zorro-antd';
 
 @Component({
     selector: 'cascader-area',
@@ -22,10 +23,14 @@ export class CascaderAreaComponent implements OnInit {
         }
     };
 
-    constructor() {
+    constructor(private msg: NzMessageService) {
     }
 
     ngOnInit() {
+    }
+
+    submit(value: any) {
+        this.msg.success(JSON.stringify(value));
     }
 
 }
